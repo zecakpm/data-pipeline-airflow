@@ -1,0 +1,48 @@
+# Airflow folders
+logs/
+airflow/logs/
+airflow/dags/energy_project/*.csv
+**/__pycache__/
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Docker and environment files
+.env
+*.env
+docker-compose.override.yml
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.bak
+*.swp
+
+# Ignore sensitive credentials
+keys/
+secrets/
+
+# Development/Testing
+.mypy_cache/
+.pytest_cache/
+
+# SQLite DB (if used)
+airflow/airflow.db
+
+
+# Ignore Terraform plan files and state files
+*.tfplan.json
+.terraform/
+*.tfstate
+*.tfstate.backup
+
