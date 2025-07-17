@@ -1,2 +1,4 @@
 project:
-    name: airflow
+  name: airflow
+  runtime: 9.0.0  # required
+  airflowVersion: 2.9.1  # must match your image version
